@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            animation: float 3s ease-in-out infinite;
+            overflow: hidden;
+            text-align: center;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
+        .button {
+            background-color: #ff4757;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 25px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #ff6b81;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Birthday!</h1>
+    <p>May this special day bring you abundant joy and happiness. May you be blessed with health and success.</p>
+    <p>"O Allah, bless the one whose birthday it is with goodness and happiness, and grant them success in this life and the hereafter."</p>
+    <button class="button" onclick="alert('Enjoy your special day!')">Click Me!</button>
+    <script>
+        function createFireworks() {
+            // your fireworks logic here
+        }
+        createFireworks();
+    </script>
+    <audio controls autoplay>
+        <source src="path/to/your/audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+</body>
+  </html>
